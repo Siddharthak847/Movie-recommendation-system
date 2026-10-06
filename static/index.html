@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CineFlix — AI Powered Movie Recommendation System</title>
+  <meta name="description" content="State of the art Netflix-grade movie recommendation engine combining content-based filtering, collaborative latent factors, and real-time taste vector adaptation." />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico" />
+
+  <!-- Google Fonts: Bebas Neue for iconic titles/numbers, Outfit & Inter for sleek UI -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome for Netflix-grade icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body class="netflix-dark">
+
+  <!-- Top Navigation Bar -->
+  <header id="main-header" class="navbar">
+    <div class="nav-left">
+      <a href="#" class="brand-logo" id="logo-btn">
+        <span class="logo-red">CINE</span><span class="logo-white">FLIX</span>
+        <span class="ai-tag">AI ENGINE</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#hero-section" class="nav-link active" id="nav-home">Home</a>
+        <a href="#row-top_picks" class="nav-link" id="nav-top-picks">Top Picks</a>
+        <a href="#row-top_10" class="nav-link" id="nav-top-10">Top 10</a>
+        <a href="#row-because_you_watched" class="nav-link" id="nav-because">Because You Watched</a>
+        <a href="#row-watchlist" class="nav-link" id="nav-watchlist">My List <span class="badge-count" id="watchlist-nav-badge">0</span></a>
+      </nav>
+    </div>
+
+    <div class="nav-right">
+      <!-- Search Trigger / Box -->
+      <div class="search-container" id="search-container">
+        <button class="icon-btn search-trigger" id="search-trigger" aria-label="Search movies">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <div class="search-input-wrapper" id="search-input-wrapper">
+          <input 
+            type="text" 
+            id="search-input" 
+            placeholder="Titles, actors, directors, genres, moods..." 
+            autocomplete="off" 
+          />
+          <button class="clear-search-btn" id="clear-search" aria-label="Clear search">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- AI Taste Studio Trigger -->
+      <button class="ai-studio-btn" id="open-studio-btn" title="Open AI Taste Studio">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+        <span>AI Taste Studio</span>
+      </button>
+
+      <!-- Persona Dropdown -->
+      <div class="persona-selector-wrapper">
+        <button class="persona-btn" id="persona-btn" title="Active Persona Profile">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&h=120&q=80" alt="Avatar" class="avatar-img" />
+          <i class="fa-solid fa-caret-down"></i>
+        </button>
+        <div class="persona-dropdown" id="persona-dropdown">
+          <div class="dropdown-header">
+            <p class="dropdown-subtitle">CURRENT TASTE PERSONA</p>
+            <p class="dropdown-active-name" id="dropdown-persona-name">Balanced Cinephile</p>
+          </div>
+          <div class="dropdown-divider"></div>
+          <div class="dropdown-persona-options">
+            <button class="persona-option" data-persona="nolan_scifi">
+              <i class="fa-solid fa-rocket"></i> Christopher Nolan & Sci-Fi
+            </button>
+            <button class="persona-option" data-persona="action_adrenaline">
+              <i class="fa-solid fa-fire"></i> High-Octane Action
+            </button>
+            <button class="persona-option" data-persona="crime_dark">
+              <i class="fa-solid fa-mask"></i> Dark Crime & Noir
+            </button>
+            <button class="persona-option" data-persona="cinephile_awards">
+              <i class="fa-solid fa-award"></i> Oscar Masterpieces
+            </button>
+            <button class="persona-option" data-persona="animation_heart">
+              <i class="fa-solid fa-heart"></i> Animation & Family
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-content">
+    
+    <!-- Hero Billboard Section -->
+    <section id="hero-section" class="hero-billboard">
+      <div class="hero-backdrop-container">
+        <img id="hero-backdrop" src="" alt="Hero Backdrop" class="hero-backdrop-img" />
+        <div class="hero-vignette"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badges">
+          <span class="netflix-series-badge">
+            <span class="n-symbol">N</span> BLOCKBUSTER SPOTLIGHT
+          </span>
+          <span class="hero-match-badge" id="hero-match-pct">98% Match</span>
+          <span class="hero-quality-badge">4K ULTRA HD</span>
+        </div>
+
+        <h1 class="hero-title" id="hero-title">Loading Spotlight...</h1>
+        
+        <div class="hero-meta">
+          <span class="meta-tag rating" id="hero-rating"><i class="fa-solid fa-star"></i> 8.8</span>
+          <span class="meta-tag year" id="hero-year">2024</span>
+          <span class="meta-tag age-rating" id="hero-age">PG-13</span>
+          <span class="meta-tag duration" id="hero-duration">2h 28m</span>
+          <span class="meta-tag sound"><i class="fa-solid fa-volume-high"></i> Spatial Audio</span>
+        </div>
+
+        <p class="hero-overview" id="hero-overview">
+          Explore movies dynamically curated for your unique tastes through our state-of-the-art hybrid recommendation system.
+        </p>
+
+        <p class="hero-explanation" id="hero-explanation">
+          <i class="fa-solid fa-brain"></i> <span id="hero-explanation-text">Personalized based on your viewing profile</span>
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary" id="hero-play-btn">
+            <i class="fa-solid fa-play"></i> Play Trailer
+          </button>
+          <button class="btn btn-secondary" id="hero-info-btn">
+            <i class="fa-solid fa-circle-info"></i> More Info
+          </button>
+          <button class="btn btn-icon" id="hero-watchlist-btn" title="Add to My List">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-right-meta">
+        <button class="mute-toggle-btn" id="mute-toggle-btn" title="Sound Effects">
+          <i class="fa-solid fa-volume-high" id="sound-icon"></i>
+        </button>
+        <span class="hero-age-pill" id="hero-age-pill">16+</span>
+      </div>
+    </section>
+
+    <!-- Search / Filter Overlay Mode (Hidden by default, shown when user searches) -->
+    <section id="search-results-section" class="search-results-section hidden">
+      <div class="search-header-bar">
+        <div class="search-title-area">
+          <h2 class="section-title">Search & Discovery</h2>
+          <p class="search-summary" id="search-summary">Showing all available titles</p>
+        </div>
+
+        <div class="filter-controls">
+          <div class="filter-group">
+            <label for="filter-genre">Genre:</label>
+            <select id="filter-genre" class="custom-select">
+              <option value="All">All Genres</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-mood">Mood:</label>
+            <select id="filter-mood" class="custom-select">
+              <option value="All">All Moods</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-sort">Sort By:</label>
+            <select id="filter-sort" class="custom-select">
+              <option value="match">AI Match %</option>
+              <option value="rating">IMDb Rating</option>
+              <option value="year">Release Year</option>
+            </select>
+          </div>
+
+          <button class="btn-sm reset-filter-btn" id="reset-filters-btn">
+            <i class="fa-solid fa-rotate-left"></i> Reset
+          </button>
+        </div>
+      </div>
+
+      <div class="movies-grid" id="search-grid">
+        <!-- Search result cards dynamically rendered here -->
+      </div>
+    </section>
+
+    <!-- Netflix Category Rows Section -->
+    <div id="category-rows-container" class="category-rows-container">
+      <!-- Dynamic rows will be inserted here:
+           1. Top Picks for You (AI)
+           2. Top 10 Movies Today
+           3. Because You Watched...
+           4. Mind-Bending & Sci-Fi
+           5. Adrenaline Rush & Action
+           6. Dark Crime & Gripping Thrillers
+           7. Animation, Whimsy & Family
+           8. Critically Acclaimed Masterpieces
+           9. My List (Watchlist)
+      -->
+    </div>
+
+  </main>
+
+  <!-- Netflix Full Movie Detail & Trailer Modal -->
+  <div class="modal-backdrop" id="movie-modal-backdrop">
+    <div class="netflix-modal" id="netflix-modal">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <!-- Modal Hero Video / Banner -->
+      <div class="modal-hero">
+        <div class="modal-video-wrapper" id="modal-video-wrapper">
+          <iframe 
+            id="modal-youtube-iframe" 
+            src="" 
+            title="Movie Trailer" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+          <img id="modal-hero-fallback" src="" alt="Backdrop" class="modal-fallback-img hidden" />
+        </div>
+        <div class="modal-hero-gradient"></div>
+        <div class="modal-hero-content">
+          <h2 class="modal-title" id="modal-title">Movie Title</h2>
+          <div class="modal-quick-actions">
+            <button class="btn btn-primary" id="modal-play-trailer-btn">
+              <i class="fa-solid fa-rotate-right"></i> Replay Trailer
+            </button>
+            <button class="btn btn-icon" id="modal-watchlist-btn" title="Add to My List">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+            <button class="btn btn-icon like-action" id="modal-thumbs-up" title="I like this">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="btn btn-icon like-action" id="modal-thumbs-love" title="I love this">
+              <i class="fa-solid fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Body Content -->
+      <div class="modal-body">
+        <div class="modal-columns">
+          
+          <!-- Left Column: Specs, Synopsis, AI Reason, Rating Widget -->
+          <div class="modal-left-col">
+            <div class="modal-meta-row">
+              <span class="match-score" id="modal-match-score">98% Match</span>
+              <span class="meta-pill" id="modal-year">2023</span>
+              <span class="age-badge" id="modal-age">PG-13</span>
+              <span class="meta-pill" id="modal-duration">2h 28m</span>
+              <span class="badge-hd">4K ULTRA HD</span>
+              <span class="badge-audio">5.1</span>
+            </div>
+
+            <!-- Explainable AI Recommendation Insight -->
+            <div class="modal-xai-box">
+              <div class="xai-header">
+                <i class="fa-solid fa-brain-circuit"></i>
+                <span>WHY WE RECOMMEND THIS FOR YOU</span>
+              </div>
+              <p class="xai-text" id="modal-xai-text">
+                Matches your high preference for Christopher Nolan's mind-bending narratives and cerebral sci-fi.
+              </p>
+            </div>
+
+            <!-- Plot Overview -->
+            <p class="modal-overview" id="modal-overview">
+              Movie plot overview will appear here.
+            </p>
+
+            <!-- Interactive Rating Widget: Teach the AI -->
+            <div class="modal-rating-widget">
+              <div class="widget-header">
+                <h4>RATE THIS MOVIE & TEACH YOUR AI</h4>
+                <span class="widget-hint">Instantly recalibrates your personalized taste vector</span>
+              </div>
+              <div class="stars-bar" id="modal-stars-bar">
+                <button class="star-btn" data-value="1"><i class="fa-solid fa-star"></i></button>
+                <button class="star-btn" data-value="2"><i class="fa-solid fa-star"></i></button>
+                <button class="star-btn" data-value="3"><i class="fa-solid fa-star"></i></button>
+                <button class="star-btn" data-value="4"><i class="fa-solid fa-star"></i></button>
+                <button class="star-btn" data-value="5"><i class="fa-solid fa-star"></i></button>
+                <span class="rating-feedback-label" id="rating-feedback">Click to rate</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Cast, Director, Genres, Mood Tags, Awards -->
+          <div class="modal-right-col">
+            <div class="meta-field">
+              <span class="field-label">Director:</span>
+              <span class="field-value" id="modal-director">Christopher Nolan</span>
+            </div>
+            <div class="meta-field">
+              <span class="field-label">Cast:</span>
+              <span class="field-value" id="modal-cast">Leonardo DiCaprio, Joseph Gordon-Levitt</span>
+            </div>
+            <div class="meta-field">
+              <span class="field-label">Genres:</span>
+              <span class="field-value" id="modal-genres">Sci-Fi, Action, Thriller</span>
+            </div>
+            <div class="meta-field">
+              <span class="field-label">Mood & Tone:</span>
+              <div class="tags-cloud" id="modal-mood-tags">
+                <span class="tag">Mind-Bending</span>
+                <span class="tag">Cerebral</span>
+              </div>
+            </div>
+            <div class="meta-field">
+              <span class="field-label">Critical Acclaim:</span>
+              <span class="field-value awards-text" id="modal-awards">Won 4 Academy Awards.</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- "More Like This" Recommendations Grid Inside Modal -->
+        <div class="modal-similar-section">
+          <h3 class="similar-heading">More Like This</h3>
+          <div class="similar-grid" id="modal-similar-grid">
+            <!-- 6 Similar Movie cards injected here -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- AI Taste Studio Drawer -->
+  <aside class="ai-studio-drawer" id="ai-studio-drawer">
+    <div class="drawer-header">
+      <div class="drawer-title-group">
+        <i class="fa-solid fa-wand-magic-sparkles text-red"></i>
+        <h3>AI Taste Studio</h3>
+      </div>
+      <button class="drawer-close-btn" id="drawer-close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="drawer-body">
+      <!-- Active Persona Preset Switcher -->
+      <div class="studio-section">
+        <h4 class="studio-section-title">TASTE ARCHETYPES</h4>
+        <p class="studio-subtitle">Test how the recommendation algorithms immediately respond to distinct viewer personas:</p>
+        
+        <div class="persona-cards-grid">
+          <div class="persona-card" data-persona="nolan_scifi">
+            <div class="persona-card-icon"><i class="fa-solid fa-rocket"></i></div>
+            <div class="persona-card-info">
+              <h5>Nolan & Sci-Fi</h5>
+              <p>Mind-bending, time dilation & cerebral exploration</p>
+            </div>
+          </div>
+
+          <div class="persona-card" data-persona="action_adrenaline">
+            <div class="persona-card-icon"><i class="fa-solid fa-fire"></i></div>
+            <div class="persona-card-info">
+              <h5>Action & Adrenaline</h5>
+              <p>High-octane stunts, dogfights & practical gun-fu</p>
+            </div>
+          </div>
+
+          <div class="persona-card" data-persona="crime_dark">
+            <div class="persona-card-icon"><i class="fa-solid fa-mask"></i></div>
+            <div class="persona-card-info">
+              <h5>Dark Crime & Noir</h5>
+              <p>Undercover thrillers, gritty mafia & serial killers</p>
+            </div>
+          </div>
+
+          <div class="persona-card" data-persona="cinephile_awards">
+            <div class="persona-card-icon"><i class="fa-solid fa-award"></i></div>
+            <div class="persona-card-info">
+              <h5>Award Masterpieces</h5>
+              <p>Critically acclaimed drama, Palme d'Or & Oscar giants</p>
+            </div>
+          </div>
+
+          <div class="persona-card" data-persona="animation_heart">
+            <div class="persona-card-icon"><i class="fa-solid fa-heart"></i></div>
+            <div class="persona-card-info">
+              <h5>Animation & Heart</h5>
+              <p>Miyazaki whimsy, Pixar emotion & Spider-Verse art</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Real-Time User Taste Vector Visualization -->
+      <div class="studio-section">
+        <h4 class="studio-section-title">YOUR LIVE TASTE VECTOR</h4>
+        <p class="studio-subtitle">Learned preferences across our multi-dimensional feature space:</p>
+        
+        <div class="taste-bars-container" id="taste-bars-container">
+          <!-- Dynamic bars for user top genres & weights -->
+        </div>
+      </div>
+
+      <!-- User Rated Movies History -->
+      <div class="studio-section">
+        <h4 class="studio-section-title">MOVIES YOU'VE RATED (<span id="user-ratings-count">0</span>)</h4>
+        <div class="rated-movies-scroll" id="rated-movies-list">
+          <!-- Rated thumbnails -->
+        </div>
+      </div>
+
+      <!-- Recommendation Architecture Info -->
+      <div class="studio-section arch-info-box">
+        <h4 class="studio-section-title"><i class="fa-solid fa-microchip"></i> ENGINE SPECIFICATION</h4>
+        <ul class="arch-list">
+          <li><strong>Content-Based:</strong> TF-IDF n-grams + cosine similarity on weighted feature soups (genre, mood, director, cast, synopsis).</li>
+          <li><strong>Collaborative:</strong> Item-Item Pearson/Cosine correlation on simulated multi-persona streaming matrices.</li>
+          <li><strong>Quality Prior:</strong> Bayesian weighted score (IMDb top 250 formula).</li>
+          <li><strong>Dynamic Adaptation:</strong> Instant vector updates in latent space on every star or like click.</li>
+        </ul>
+      </div>
+
+    </div>
+  </aside>
+
+  <!-- Interactive Toast Notification Element -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Footer -->
+  <footer class="netflix-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <span class="logo-red">CINE</span><span class="logo-white">FLIX</span>
+        <span class="footer-tag">Advanced Recommendation Architecture</span>
+      </div>
+      <p class="footer-desc">
+        A Netflix-inspired movie recommendation platform powered by machine learning algorithms: Content-based TF-IDF, item-item collaborative filtering, Bayesian calibration, and real-time user preference vectors.
+      </p>
+      <div class="footer-bottom">
+        <span>Designed for cinematic excellence & dynamic user personalization</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript App -->
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2238 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "year": 2010,
+    "age_rating": "PG-13",
+    "duration": "2h 28m",
+    "imdb_rating": 8.8,
+    "vote_count": 2540000,
+    "genres": [
+      "Sci-Fi",
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Mind-Bending",
+      "Cerebral",
+      "Heist",
+      "Suspenseful",
+      "Visual Spectacle"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page",
+      "Tom Hardy",
+      "Cillian Murphy"
+    ],
+    "overview": "Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state. Given a chance at redemption, Cobb must accomplish the impossible: Inception.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+    "trailer_youtube_id": "YoHD9XEInc0",
+    "awards": "Won 4 Oscars. Another 159 wins & 220 nominations.",
+    "quality": "4K Ultra HD • Spatial Audio • Dolby Vision"
+  },
+  {
+    "id": 2,
+    "title": "Interstellar",
+    "year": 2014,
+    "age_rating": "PG-13",
+    "duration": "2h 49m",
+    "imdb_rating": 8.7,
+    "vote_count": 2080000,
+    "genres": [
+      "Sci-Fi",
+      "Adventure",
+      "Drama"
+    ],
+    "mood_tags": [
+      "Mind-Bending",
+      "Emotional",
+      "Space Exploration",
+      "Epic",
+      "Cerebral"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain",
+      "Michael Caine",
+      "Matt Damon"
+    ],
+    "overview": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans through a newly discovered wormhole.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/xJHokMbljvjADYdit5fK5VQsXEG.jpg",
+    "trailer_youtube_id": "zSWdZVtXT7E",
+    "awards": "Won 1 Oscar. Another 44 wins & 148 nominations.",
+    "quality": "4K Ultra HD • 5.1 Surround • IMAX Ratio"
+  },
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "age_rating": "PG-13",
+    "duration": "2h 32m",
+    "imdb_rating": 9.0,
+    "vote_count": 2890000,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Dark & Gritty",
+      "Psychological",
+      "Superhero",
+      "Masterpiece",
+      "Tense"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Michael Caine",
+      "Gary Oldman"
+    ],
+    "overview": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
+    "trailer_youtube_id": "EXeTwQWrcwY",
+    "awards": "Won 2 Oscars. Another 163 wins & 164 nominations.",
+    "quality": "4K Ultra HD • Dolby Atmos"
+  },
+  {
+    "id": 4,
+    "title": "Oppenheimer",
+    "year": 2023,
+    "age_rating": "R",
+    "duration": "3h 00m",
+    "imdb_rating": 8.9,
+    "vote_count": 820000,
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "mood_tags": [
+      "Cerebral",
+      "Tense",
+      "Historical",
+      "Biopic",
+      "Intense"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Cillian Murphy",
+      "Emily Blunt",
+      "Matt Damon",
+      "Robert Downey Jr.",
+      "Florence Pugh"
+    ],
+    "overview": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb during the Manhattan Project, exploring the moral and political turmoil of his triumph.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/rM5Y09xC9YneBgv1GhhuM2ktGmm.jpg",
+    "trailer_youtube_id": "uYPbbksJxIg",
+    "awards": "Won 7 Oscars including Best Picture & Best Director.",
+    "quality": "4K Ultra HD • Spatial Audio • Dolby Vision"
+  },
+  {
+    "id": 5,
+    "title": "The Matrix",
+    "year": 1999,
+    "age_rating": "R",
+    "duration": "2h 16m",
+    "imdb_rating": 8.7,
+    "vote_count": 2050000,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Cyberpunk",
+      "Mind-Bending",
+      "Philosophical",
+      "Revolutionary",
+      "Martial Arts"
+    ],
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "cast": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss",
+      "Hugo Weaving",
+      "Joe Pantoliano"
+    ],
+    "overview": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+    "trailer_youtube_id": "vKQi3bBA1y8",
+    "awards": "Won 4 Oscars for Sound and Visual Effects.",
+    "quality": "4K Ultra HD • Spatial Audio"
+  },
+  {
+    "id": 6,
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "age_rating": "R",
+    "duration": "2h 44m",
+    "imdb_rating": 8.0,
+    "vote_count": 640000,
+    "genres": [
+      "Sci-Fi",
+      "Mystery",
+      "Drama",
+      "Action"
+    ],
+    "mood_tags": [
+      "Cyberpunk",
+      "Atmospheric",
+      "Visual Masterpiece",
+      "Philosophical",
+      "Neo-Noir"
+    ],
+    "director": "Denis Villeneuve",
+    "cast": [
+      "Ryan Gosling",
+      "Harrison Ford",
+      "Ana de Armas",
+      "Sylvia Hoeks",
+      "Robin Wright"
+    ],
+    "overview": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/sAtoMqDVhNDQBc3QJL3RF6hlxGq.jpg",
+    "trailer_youtube_id": "gCcx85zbxz4",
+    "awards": "Won 2 Oscars for Cinematography & Visual Effects.",
+    "quality": "4K Ultra HD • Dolby Atmos • HDR10"
+  },
+  {
+    "id": 7,
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "age_rating": "PG-13",
+    "duration": "2h 46m",
+    "imdb_rating": 8.6,
+    "vote_count": 520000,
+    "genres": [
+      "Sci-Fi",
+      "Adventure",
+      "Action",
+      "Drama"
+    ],
+    "mood_tags": [
+      "Epic",
+      "Visually Stunning",
+      "Space Opera",
+      "Intense",
+      "Political Intrigue"
+    ],
+    "director": "Denis Villeneuve",
+    "cast": [
+      "Timothée Chalamet",
+      "Zendaya",
+      "Rebecca Ferguson",
+      "Javier Bardem",
+      "Austin Butler"
+    ],
+    "overview": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/xOMo8BRK7PfcJv9JCnx7s520DRq.jpg",
+    "trailer_youtube_id": "Way9Dexny3w",
+    "awards": "Global Box Office Sensation & Critical Acclaim.",
+    "quality": "4K Ultra HD • IMAX Enhanced • Spatial Audio"
+  },
+  {
+    "id": 8,
+    "title": "Dune",
+    "year": 2021,
+    "age_rating": "PG-13",
+    "duration": "2h 35m",
+    "imdb_rating": 8.0,
+    "vote_count": 780000,
+    "genres": [
+      "Sci-Fi",
+      "Adventure",
+      "Drama"
+    ],
+    "mood_tags": [
+      "Epic",
+      "Atmospheric",
+      "Space Opera",
+      "Cerebral",
+      "World-Building"
+    ],
+    "director": "Denis Villeneuve",
+    "cast": [
+      "Timothée Chalamet",
+      "Rebecca Ferguson",
+      "Oscar Isaac",
+      "Josh Brolin",
+      "Stellan Skarsgård"
+    ],
+    "overview": "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/eeijXm355kxcvuHGGmNyMuNx5Qp.jpg",
+    "trailer_youtube_id": "8g18jFHCLXk",
+    "awards": "Won 6 Oscars including Best Original Score & Cinematography.",
+    "quality": "4K Ultra HD • Dolby Atmos"
+  },
+  {
+    "id": 9,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "age_rating": "R",
+    "duration": "2h 34m",
+    "imdb_rating": 8.9,
+    "vote_count": 2230000,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "mood_tags": [
+      "Cult Classic",
+      "Non-linear",
+      "Witty Dialogue",
+      "Dark Comedy",
+      "Stylized"
+    ],
+    "director": "Quentin Tarantino",
+    "cast": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson",
+      "Bruce Willis",
+      "Ving Rhames"
+    ],
+    "overview": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+    "trailer_youtube_id": "s7EdQ4FqbhY",
+    "awards": "Won Oscar for Best Original Screenplay. Palme d'Or Winner.",
+    "quality": "4K Ultra HD • 5.1 Surround"
+  },
+  {
+    "id": 10,
+    "title": "Fight Club",
+    "year": 1999,
+    "age_rating": "R",
+    "duration": "2h 19m",
+    "imdb_rating": 8.8,
+    "vote_count": 2310000,
+    "genres": [
+      "Drama"
+    ],
+    "mood_tags": [
+      "Psychological",
+      "Mind-Bending",
+      "Dark Comedy",
+      "Rebellion",
+      "Cult Classic"
+    ],
+    "director": "David Fincher",
+    "cast": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter",
+      "Meat Loaf",
+      "Jared Leto"
+    ],
+    "overview": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+    "trailer_youtube_id": "qtRKDV93gk8",
+    "awards": "Nominated for 1 Oscar. Cult phenomenon.",
+    "quality": "4K Ultra HD • 5.1 Surround"
+  },
+  {
+    "id": 11,
+    "title": "Se7en",
+    "year": 1995,
+    "age_rating": "R",
+    "duration": "2h 07m",
+    "imdb_rating": 8.6,
+    "vote_count": 1820000,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Dark & Gritty",
+      "Psychological",
+      "Serial Killer",
+      "Tense",
+      "Bleak"
+    ],
+    "director": "David Fincher",
+    "cast": [
+      "Morgan Freeman",
+      "Brad Pitt",
+      "Kevin Spacey",
+      "Gwyneth Paltrow",
+      "R. Lee Ermey"
+    ],
+    "overview": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives in a rain-soaked, decaying metropolis.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/6yoghtyTpznpBik8EngEmJskVUO.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/ba4CpFFAcv7995g3sYqgG0bO086.jpg",
+    "trailer_youtube_id": "znmZoVkCjpI",
+    "awards": "Nominated for 1 Oscar. Regarded as one of the best thrillers.",
+    "quality": "4K Ultra HD • HDR"
+  },
+  {
+    "id": 12,
+    "title": "Gone Girl",
+    "year": 2014,
+    "age_rating": "R",
+    "duration": "2h 29m",
+    "imdb_rating": 8.1,
+    "vote_count": 1070000,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Psychological",
+      "Twisted",
+      "Suspenseful",
+      "Deception",
+      "Dark"
+    ],
+    "director": "David Fincher",
+    "cast": [
+      "Ben Affleck",
+      "Rosamund Pike",
+      "Neil Patrick Harris",
+      "Tyler Perry",
+      "Carrie Coon"
+    ],
+    "overview": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/qymaJhucquUwjpKV8yW9NsQ5G7n.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/zF31dE4PzK240Q9bN4E4K8dGg1f.jpg",
+    "trailer_youtube_id": "2-_-1nJf8Vg",
+    "awards": "Nominated for 1 Oscar. Rosamund Pike iconic performance.",
+    "quality": "HD • 5.1 Surround"
+  },
+  {
+    "id": 13,
+    "title": "Parasite",
+    "year": 2019,
+    "age_rating": "R",
+    "duration": "2h 12m",
+    "imdb_rating": 8.5,
+    "vote_count": 940000,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Comedy"
+    ],
+    "mood_tags": [
+      "Social Commentary",
+      "Twisted",
+      "Dark Comedy",
+      "Suspenseful",
+      "Masterpiece"
+    ],
+    "director": "Bong Joon Ho",
+    "cast": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong",
+      "Choi Woo-shik",
+      "Park So-dam"
+    ],
+    "overview": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/hiKmpZMGZsrkA3cdce8a7Dpos1j.jpg",
+    "trailer_youtube_id": "5xH0RZE7V4Y",
+    "awards": "Won 4 Oscars including Best Picture & Best Director.",
+    "quality": "4K Ultra HD • Spatial Audio"
+  },
+  {
+    "id": 14,
+    "title": "Whiplash",
+    "year": 2014,
+    "age_rating": "R",
+    "duration": "1h 47m",
+    "imdb_rating": 8.5,
+    "vote_count": 980000,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "mood_tags": [
+      "Intense",
+      "Obsession",
+      "Psychological",
+      "Adrenaline",
+      "Riveting"
+    ],
+    "director": "Damien Chazelle",
+    "cast": [
+      "Miles Teller",
+      "J.K. Simmons",
+      "Paul Reiser",
+      "Melissa Benoist",
+      "Austin Stowell"
+    ],
+    "overview": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/6bbZ6XvyvgfIQnmAcWwaApzIqVm.jpg",
+    "trailer_youtube_id": "7d_jQycdQGo",
+    "awards": "Won 3 Oscars including Best Supporting Actor for J.K. Simmons.",
+    "quality": "4K Ultra HD • Dolby Atmos"
+  },
+  {
+    "id": 15,
+    "title": "Spider-Man: Across the Spider-Verse",
+    "year": 2023,
+    "age_rating": "PG",
+    "duration": "2h 20m",
+    "imdb_rating": 8.6,
+    "vote_count": 390000,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Visual Spectacle",
+      "Multiverse",
+      "Dynamic",
+      "Emotional",
+      "Superhero"
+    ],
+    "director": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
+    "cast": [
+      "Shameik Moore",
+      "Hailee Steinfeld",
+      "Oscar Isaac",
+      "Daniel Kaluuya",
+      "Jake Johnson"
+    ],
+    "overview": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When heroes clash on handling a new threat, Miles must redefine heroism.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg",
+    "trailer_youtube_id": "cqGjhVJWtEg",
+    "awards": "Nominated for 1 Oscar. Won 7 Annie Awards.",
+    "quality": "4K Ultra HD • Dolby Atmos • Dolby Vision"
+  },
+  {
+    "id": 16,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "age_rating": "PG",
+    "duration": "1h 57m",
+    "imdb_rating": 8.4,
+    "vote_count": 680000,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Groundbreaking",
+      "Energetic",
+      "Heartfelt",
+      "Superhero",
+      "Artistic"
+    ],
+    "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+    "cast": [
+      "Shameik Moore",
+      "Jake Johnson",
+      "Hailee Steinfeld",
+      "Mahershala Ali",
+      "Brian Tyree Henry"
+    ],
+    "overview": "Teen Miles Morales becomes the new Spider-Man, and must cross parallel dimensions to team up with the alternate Spider-Heroes of other dimensions to stop a threat to all reality.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/7d6woWBsigAw74W4r1F4yMv5cZ4.jpg",
+    "trailer_youtube_id": "tg52up16eq0",
+    "awards": "Won Oscar for Best Animated Feature Film.",
+    "quality": "4K Ultra HD • Spatial Audio"
+  },
+  {
+    "id": 17,
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "age_rating": "R",
+    "duration": "2h 19m",
+    "imdb_rating": 7.8,
+    "vote_count": 540000,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Sci-Fi",
+      "Fantasy"
+    ],
+    "mood_tags": [
+      "Mind-Bending",
+      "Absurdist",
+      "Multiverse",
+      "Emotional",
+      "Energetic"
+    ],
+    "director": "Daniel Kwan, Daniel Scheinert",
+    "cast": [
+      "Michelle Yeoh",
+      "Stephanie Hsu",
+      "Ke Huy Quan",
+      "Jamie Lee Curtis",
+      "James Hong"
+    ],
+    "overview": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/w3LxiVYPqrlxqPYSENYVYFqY32t.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/fOy2Jurz9Anw120Fk5Z1U5uagPP.jpg",
+    "trailer_youtube_id": "wxN1T1uxQ2g",
+    "awards": "Won 7 Oscars including Best Picture, Best Actress & Best Director.",
+    "quality": "4K Ultra HD • Dolby Atmos"
+  },
+  {
+    "id": 18,
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "age_rating": "PG-13",
+    "duration": "3h 01m",
+    "imdb_rating": 8.4,
+    "vote_count": 1300000,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Epic",
+      "Emotional",
+      "Superhero",
+      "Climactic",
+      "Spectacle"
+    ],
+    "director": "Anthony Russo, Joe Russo",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Scarlett Johansson"
+    ],
+    "overview": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more to reverse Thanos' actions and restore balance.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+    "trailer_youtube_id": "TcMBFSGVi1c",
+    "awards": "All-time Box Office titan. Nominated for 1 Oscar.",
+    "quality": "4K Ultra HD • IMAX Enhanced • Spatial Audio"
+  },
+  {
+    "id": 19,
+    "title": "Avengers: Infinity War",
+    "year": 2018,
+    "age_rating": "PG-13",
+    "duration": "2h 29m",
+    "imdb_rating": 8.4,
+    "vote_count": 1220000,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Epic",
+      "High Stakes",
+      "Superhero",
+      "Intense",
+      "Spectacle"
+    ],
+    "director": "Anthony Russo, Joe Russo",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Mark Ruffalo",
+      "Chris Evans",
+      "Josh Brolin"
+    ],
+    "overview": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/bOGkgRGdhrBYJSLpXaxhXVstNsV.jpg",
+    "trailer_youtube_id": "6ZfuNTqbHE8",
+    "awards": "Nominated for 1 Oscar. Groundbreaking cinematic crossover.",
+    "quality": "4K Ultra HD • Spatial Audio"
+  },
+  {
+    "id": 20,
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "age_rating": "R",
+    "duration": "2h 22m",
+    "imdb_rating": 9.3,
+    "vote_count": 2920000,
+    "genres": [
+      "Drama"
+    ],
+    "mood_tags": [
+      "Inspirational",
+      "Hope",
+      "Prison",
+      "Masterpiece",
+      "Friendship"
+    ],
+    "director": "Frank Darabont",
+    "cast": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton",
+      "William Sadler",
+      "Clancy Brown"
+    ],
+    "overview": "Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/kXfqymO8Bo3nFnvhox24F2GZ51b.jpg",
+    "trailer_youtube_id": "PLl99DlL6b4",
+    "awards": "#1 Highest Rated Movie of All Time on IMDb.",
+    "quality": "4K Ultra HD • 5.1 Surround"
+  },
+  {
+    "id": 21,
+    "title": "The Godfather",
+    "year": 1972,
+    "age_rating": "R",
+    "duration": "2h 55m",
+    "imdb_rating": 9.2,
+    "vote_count": 2050000,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "mood_tags": [
+      "Mafia",
+      "Epic",
+      "Tragic",
+      "Masterpiece",
+      "Power Dynamics"
+    ],
+    "director": "Francis Ford Coppola",
+    "cast": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan",
+      "Richard S. Castellano",
+      "Robert Duvall"
+    ],
+    "overview": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/tmU7GeKVybMWF92vGZSDTMKhitL.jpg",
+    "trailer_youtube_id": "sY1S349gOnc",
+    "awards": "Won 3 Oscars including Best Picture & Best Actor.",
+    "quality": "4K Ultra HD • Dolby Vision"
+  },
+  {
+    "id": 22,
+    "title": "The Godfather Part II",
+    "year": 1974,
+    "age_rating": "R",
+    "duration": "3h 22m",
+    "imdb_rating": 9.0,
+    "vote_count": 1390000,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "mood_tags": [
+      "Mafia",
+      "Epic",
+      "Power",
+      "Corruption",
+      "Masterpiece"
+    ],
+    "director": "Francis Ford Coppola",
+    "cast": [
+      "Al Pacino",
+      "Robert De Niro",
+      "Robert Duvall",
+      "Diane Keaton",
+      "John Cazale"
+    ],
+    "overview": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/kGzFbGHa9PGRv6eb1G05786WqD9.jpg",
+    "trailer_youtube_id": "9O1Iy9od7-A",
+    "awards": "Won 6 Oscars including Best Picture & Best Director.",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 23,
+    "title": "GoodFellas",
+    "year": 1990,
+    "age_rating": "R",
+    "duration": "2h 25m",
+    "imdb_rating": 8.7,
+    "vote_count": 1280000,
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "mood_tags": [
+      "Mafia",
+      "Fast-Paced",
+      "Dark Comedy",
+      "Masterpiece",
+      "Gritty"
+    ],
+    "director": "Martin Scorsese",
+    "cast": [
+      "Robert De Niro",
+      "Ray Liotta",
+      "Joe Pesci",
+      "Lorraine Bracco",
+      "Paul Sorvino"
+    ],
+    "overview": "The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/sw7mordbZxgITU877yTpZCud90M.jpg",
+    "trailer_youtube_id": "qo5jJpHtI1Y",
+    "awards": "Won Oscar for Best Supporting Actor (Joe Pesci).",
+    "quality": "4K Ultra HD • 5.1 Surround"
+  },
+  {
+    "id": 24,
+    "title": "The Wolf of Wall Street",
+    "year": 2013,
+    "age_rating": "R",
+    "duration": "3h 00m",
+    "imdb_rating": 8.2,
+    "vote_count": 1580000,
+    "genres": [
+      "Biography",
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "mood_tags": [
+      "Wild",
+      "Hedonistic",
+      "Fast-Paced",
+      "Dark Comedy",
+      "Satire"
+    ],
+    "director": "Martin Scorsese",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Jonah Hill",
+      "Margot Robbie",
+      "Matthew McConaughey",
+      "Kyle Chandler"
+    ],
+    "overview": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/34m2tygAYBGqA9MXKhRDtzYd4MR.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/7c9UVPPiTPltouxShY9fEbAO1A9.jpg",
+    "trailer_youtube_id": "iszwuX1AK6A",
+    "awards": "Nominated for 5 Oscars including Best Actor & Director.",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 25,
+    "title": "Shutter Island",
+    "year": 2010,
+    "age_rating": "R",
+    "duration": "2h 18m",
+    "imdb_rating": 8.2,
+    "vote_count": 1470000,
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Mind-Bending",
+      "Psychological",
+      "Twist Ending",
+      "Paranoid",
+      "Atmospheric"
+    ],
+    "director": "Martin Scorsese",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Mark Ruffalo",
+      "Ben Kingsley",
+      "Max von Sydow",
+      "Michelle Williams"
+    ],
+    "overview": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane on Boston Harbor's Shutter Island.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/4GDy0PHYX3VRXUtwK5ysagvk2Te.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/nL5mUaU4g5F4WffJj7g8t43rD7N.jpg",
+    "trailer_youtube_id": "5iaYLCiq5RM",
+    "awards": "11 wins & 64 nominations.",
+    "quality": "4K Ultra HD • 5.1 Surround"
+  },
+  {
+    "id": 26,
+    "title": "The Departed",
+    "year": 2006,
+    "age_rating": "R",
+    "duration": "2h 31m",
+    "imdb_rating": 8.5,
+    "vote_count": 1440000,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Undercover",
+      "Tense",
+      "Twisted",
+      "Masterpiece",
+      "Gritty"
+    ],
+    "director": "Martin Scorsese",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Matt Damon",
+      "Jack Nicholson",
+      "Mark Wahlberg",
+      "Martin Sheen"
+    ],
+    "overview": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/9pkbtK1Jp8u3BwWk424Xk2H4W.jpg",
+    "trailer_youtube_id": "iojhqm0JTW4",
+    "awards": "Won 4 Oscars including Best Picture & Best Director.",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 27,
+    "title": "The Prestige",
+    "year": 2006,
+    "age_rating": "PG-13",
+    "duration": "2h 10m",
+    "imdb_rating": 8.5,
+    "vote_count": 1470000,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Mind-Bending",
+      "Rivalry",
+      "Obsession",
+      "Magic",
+      "Twist Ending"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Christian Bale",
+      "Hugh Jackman",
+      "Scarlett Johansson",
+      "Michael Caine",
+      "David Bowie"
+    ],
+    "overview": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/tRNlZbgNCNOpLpbPEz5L8G8A0JN.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/d0qjVbZ90J476r3K4J81cMvJ9.jpg",
+    "trailer_youtube_id": "o4gHCmTQDVI",
+    "awards": "Nominated for 2 Oscars.",
+    "quality": "4K Ultra HD • 5.1 Surround"
+  },
+  {
+    "id": 28,
+    "title": "Memento",
+    "year": 2000,
+    "age_rating": "R",
+    "duration": "1h 53m",
+    "imdb_rating": 8.4,
+    "vote_count": 1330000,
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Reverse Chronology",
+      "Mind-Bending",
+      "Amnesia",
+      "Neo-Noir",
+      "Psychological"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Guy Pearce",
+      "Carrie-Anne Moss",
+      "Joe Pantoliano",
+      "Mark Boone Junior"
+    ],
+    "overview": "A man with short-term memory loss attempts to track down his wife's murderer, using an intricate system of Polaroid photographs and tattoos.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/yuNs09hvpHVU1cBTCAk9zxsL2oW.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+    "trailer_youtube_id": "4CV41hoyS8A",
+    "awards": "Nominated for 2 Oscars. Christopher Nolan breakout masterpiece.",
+    "quality": "HD • 5.1 Surround"
+  },
+  {
+    "id": 29,
+    "title": "Spirited Away",
+    "year": 2001,
+    "age_rating": "PG",
+    "duration": "2h 05m",
+    "imdb_rating": 8.6,
+    "vote_count": 870000,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ],
+    "mood_tags": [
+      "Magical",
+      "Whimsical",
+      "Masterpiece",
+      "Atmospheric",
+      "Coming-of-Age"
+    ],
+    "director": "Hayao Miyazaki",
+    "cast": [
+      "Rumi Hiiragi",
+      "Miyu Irino",
+      "Mari Natsuki",
+      "Takashi Naito"
+    ],
+    "overview": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, and where humans are changed into beasts.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/bXNvzjYE9rvBA2LOHUTeo7knRFU.jpg",
+    "trailer_youtube_id": "ByXuk9QqQkk",
+    "awards": "Won Oscar for Best Animated Feature Film.",
+    "quality": "4K Ultra HD • Spatial Audio"
+  },
+  {
+    "id": 30,
+    "title": "Princess Mononoke",
+    "year": 1997,
+    "age_rating": "PG-13",
+    "duration": "2h 14m",
+    "imdb_rating": 8.4,
+    "vote_count": 440000,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "mood_tags": [
+      "Epic",
+      "Nature vs Man",
+      "Mythological",
+      "Masterpiece",
+      "Spiritual"
+    ],
+    "director": "Hayao Miyazaki",
+    "cast": [
+      "Yoji Matsuda",
+      "Yuriko Ishida",
+      "Yuko Tanaka",
+      "Kaoru Kobayashi"
+    ],
+    "overview": "On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/5K3v1y423J4d60d3d5f.jpg",
+    "trailer_youtube_id": "4OiMOHRDs14",
+    "awards": "Japan Academy Film Prize for Picture of the Year.",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 31,
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "age_rating": "R",
+    "duration": "2h 00m",
+    "imdb_rating": 8.1,
+    "vote_count": 1100000,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Non-Stop Action",
+      "Post-Apocalyptic",
+      "Adrenaline",
+      "Visual Masterpiece",
+      "High Octane"
+    ],
+    "director": "George Miller",
+    "cast": [
+      "Tom Hardy",
+      "Charlize Theron",
+      "Nicholas Hoult",
+      "Hugh Keays-Byrne",
+      "Zoë Kravitz"
+    ],
+    "overview": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper and a drifter named Max.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/nlCHUWjY9XWbuEUQauCBgnY8ymF.jpg",
+    "trailer_youtube_id": "hEJnMQG938A",
+    "awards": "Won 6 Oscars for Editing, Sound, Production Design & Costumes.",
+    "quality": "4K Ultra HD • Dolby Atmos"
+  },
+  {
+    "id": 32,
+    "title": "Gladiator",
+    "year": 2000,
+    "age_rating": "R",
+    "duration": "2h 35m",
+    "imdb_rating": 8.5,
+    "vote_count": 1650000,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "mood_tags": [
+      "Epic",
+      "Revenge",
+      "Historical",
+      "Vengeance",
+      "Masterpiece"
+    ],
+    "director": "Ridley Scott",
+    "cast": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen",
+      "Oliver Reed",
+      "Richard Harris"
+    ],
+    "overview": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/Ar7kP257N96WqG25.jpg",
+    "trailer_youtube_id": "owK1qxDselE",
+    "awards": "Won 5 Oscars including Best Picture & Best Actor.",
+    "quality": "4K Ultra HD • Spatial Audio"
+  },
+  {
+    "id": 33,
+    "title": "Alien",
+    "year": 1979,
+    "age_rating": "R",
+    "duration": "1h 57m",
+    "imdb_rating": 8.5,
+    "vote_count": 960000,
+    "genres": [
+      "Horror",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Claustrophobic",
+      "Suspenseful",
+      "Atmospheric Horror",
+      "Sci-Fi Classic",
+      "Iconic"
+    ],
+    "director": "Ridley Scott",
+    "cast": [
+      "Sigourney Weaver",
+      "Tom Skerritt",
+      "John Hurt",
+      "Veronica Cartwright",
+      "Harry Dean Stanton"
+    ],
+    "overview": "The crew of a commercial spacecraft encounters a deadly lifeform after investigating an unknown transmission on a desolate moon.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/AmR3JG1DYz5umPVOeErn075qPj1.jpg",
+    "trailer_youtube_id": "LjLamj-b0I8",
+    "awards": "Won Oscar for Best Visual Effects.",
+    "quality": "4K Ultra HD • 5.1 Surround"
+  },
+  {
+    "id": 34,
+    "title": "Aliens",
+    "year": 1986,
+    "age_rating": "R",
+    "duration": "2h 17m",
+    "imdb_rating": 8.4,
+    "vote_count": 780000,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "High Octane",
+      "Tense",
+      "Action-Horror",
+      "Military Sci-Fi",
+      "Masterpiece"
+    ],
+    "director": "James Cameron",
+    "cast": [
+      "Sigourney Weaver",
+      "Michael Biehn",
+      "Carrie Henn",
+      "Paul Reiser",
+      "Lance Henriksen"
+    ],
+    "overview": "Fifty-seven years after surviving an alien encounter, Ellen Ripley is sent back to the planet LV-426 with a unit of Colonial Marines to investigate a lost colony.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/r1x5JG2Kv85usjL2Y465neJg14L.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/jMBpjicR6G51Y0yZ8vWv.jpg",
+    "trailer_youtube_id": "bTCaVTu999E",
+    "awards": "Won 2 Oscars.",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 35,
+    "title": "Terminator 2: Judgment Day",
+    "year": 1991,
+    "age_rating": "R",
+    "duration": "2h 17m",
+    "imdb_rating": 8.6,
+    "vote_count": 1200000,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Adrenaline",
+      "Time Travel",
+      "Cyborg",
+      "Iconic",
+      "Groundbreaking Action"
+    ],
+    "director": "James Cameron",
+    "cast": [
+      "Arnold Schwarzenegger",
+      "Linda Hamilton",
+      "Edward Furlong",
+      "Robert Patrick"
+    ],
+    "overview": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten-year-old son John from an even more advanced and powerful cyborg.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/5M0j0B18abtBI5Psw99RGv0Vh95.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/cT5h5e6s1qfG9e5t8h1j5.jpg",
+    "trailer_youtube_id": "CRRlbK5w8AE",
+    "awards": "Won 4 Oscars for Visual Effects & Sound.",
+    "quality": "4K Ultra HD • Spatial Audio"
+  },
+  {
+    "id": 36,
+    "title": "Titanic",
+    "year": 1997,
+    "age_rating": "PG-13",
+    "duration": "3h 14m",
+    "imdb_rating": 7.9,
+    "vote_count": 1300000,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "mood_tags": [
+      "Epic Romance",
+      "Tragic",
+      "Historical Disaster",
+      "Emotional",
+      "Spectacle"
+    ],
+    "director": "James Cameron",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Kate Winslet",
+      "Billy Zane",
+      "Kathy Bates",
+      "Bill Paxton"
+    ],
+    "overview": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/6VmF239vQgg62aXb0ElV9Ge95.jpg",
+    "trailer_youtube_id": "CHekzSiZjrY",
+    "awards": "Won 11 Oscars including Best Picture & Best Director.",
+    "quality": "4K Ultra HD • Dolby Atmos • 3D"
+  },
+  {
+    "id": 37,
+    "title": "Avatar: The Way of Water",
+    "year": 2022,
+    "age_rating": "PG-13",
+    "duration": "3h 12m",
+    "imdb_rating": 7.6,
+    "vote_count": 510000,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Visual Marvel",
+      "Alien World",
+      "Epic",
+      "Family",
+      "Underwater Spectacle"
+    ],
+    "director": "James Cameron",
+    "cast": [
+      "Sam Worthington",
+      "Zoe Saldana",
+      "Sigourney Weaver",
+      "Stephen Lang",
+      "Kate Winslet"
+    ],
+    "overview": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/s16H6tpK2utvwDtzZ8Qy4qm5Emw.jpg",
+    "trailer_youtube_id": "d9MyW72ELq0",
+    "awards": "Won Oscar for Best Visual Effects. $2.3B Box Office.",
+    "quality": "4K Ultra HD • High Frame Rate • Dolby Atmos"
+  },
+  {
+    "id": 38,
+    "title": "Get Out",
+    "year": 2017,
+    "age_rating": "R",
+    "duration": "1h 44m",
+    "imdb_rating": 7.8,
+    "vote_count": 700000,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Psychological Horror",
+      "Social Satire",
+      "Tense",
+      "Unsettling",
+      "Twisted"
+    ],
+    "director": "Jordan Peele",
+    "cast": [
+      "Daniel Kaluuya",
+      "Allison Williams",
+      "Bradley Whitford",
+      "Catherine Keener",
+      "Lil Rel Howery"
+    ],
+    "overview": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him reaches a boiling point.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/fKeeX6n5e8X4D8H3j5dG5f7jG5.jpg",
+    "trailer_youtube_id": "DzfpyUB60YY",
+    "awards": "Won Oscar for Best Original Screenplay.",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 39,
+    "title": "Knives Out",
+    "year": 2019,
+    "age_rating": "PG-13",
+    "duration": "2h 10m",
+    "imdb_rating": 7.9,
+    "vote_count": 820000,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Whodunnit",
+      "Witty",
+      "Ensemble Cast",
+      "Playful",
+      "Clever"
+    ],
+    "director": "Rian Johnson",
+    "cast": [
+      "Daniel Craig",
+      "Ana de Armas",
+      "Chris Evans",
+      "Jamie Lee Curtis",
+      "Michael Shannon"
+    ],
+    "overview": "A detective investigates the death of a patriarch of an eccentric, combative family.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/Ab8mkHmkYADjU7wQiOkia99G9pF.jpg",
+    "trailer_youtube_id": "qGqiHJTsRkQ",
+    "awards": "Nominated for 1 Oscar.",
+    "quality": "4K Ultra HD • 5.1 Surround"
+  },
+  {
+    "id": 40,
+    "title": "Glass Onion: A Knives Out Mystery",
+    "year": 2022,
+    "age_rating": "PG-13",
+    "duration": "2h 19m",
+    "imdb_rating": 7.1,
+    "vote_count": 450000,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "mood_tags": [
+      "Whodunnit",
+      "Satire",
+      "Tech Billionaires",
+      "Colorful",
+      "Clever"
+    ],
+    "director": "Rian Johnson",
+    "cast": [
+      "Daniel Craig",
+      "Edward Norton",
+      "Janelle Monáe",
+      "Kathryn Hahn",
+      "Dave Bautista"
+    ],
+    "overview": "Famed Southern detective Benoit Blanc travels to Greece for his latest case surrounding a tech billionaire and his eclectic circle of friends.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/vDITBDOkFhH5O3v7d1qR3b0Xw6u.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/dKqa84n3gN3Q1Z2r4D.jpg",
+    "trailer_youtube_id": "gj5ibYSz8C0",
+    "awards": "Nominated for Oscar for Best Adapted Screenplay.",
+    "quality": "4K Ultra HD • Dolby Atmos"
+  },
+  {
+    "id": 41,
+    "title": "John Wick: Chapter 4",
+    "year": 2023,
+    "age_rating": "R",
+    "duration": "2h 49m",
+    "imdb_rating": 7.7,
+    "vote_count": 390000,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Gun Fu",
+      "Hyper-Stylized",
+      "Adrenaline Rush",
+      "Martial Arts",
+      "Spectacle"
+    ],
+    "director": "Chad Stahelski",
+    "cast": [
+      "Keanu Reeves",
+      "Donnie Yen",
+      "Bill Skarsgård",
+      "Laurence Fishburne",
+      "Hiroyuki Sanada"
+    ],
+    "overview": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/vZloFAK7NKnMGKE7Um7nfBsbgDp.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/7I6VUdPj6tQECNHdviJkUHD2f89.jpg",
+    "trailer_youtube_id": "qEVUtrk8_B4",
+    "awards": "Celebrated masterwork of practical stunt choreography.",
+    "quality": "4K Ultra HD • Dolby Atmos"
+  },
+  {
+    "id": 42,
+    "title": "Coco",
+    "year": 2017,
+    "age_rating": "PG",
+    "duration": "1h 45m",
+    "imdb_rating": 8.4,
+    "vote_count": 620000,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Fantasy",
+      "Music"
+    ],
+    "mood_tags": [
+      "Tearjerker",
+      "Heartwarming",
+      "Family",
+      "Cultural",
+      "Colorful"
+    ],
+    "director": "Lee Unkrich, Adrian Molina",
+    "cast": [
+      "Anthony Gonzalez",
+      "Gael García Bernal",
+      "Benjamin Bratt",
+      "Alanna Ubach"
+    ],
+    "overview": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/askg3SMvhqEl4OL52YuvdtY40Yb.jpg",
+    "trailer_youtube_id": "Rvr68u6k5sI",
+    "awards": "Won 2 Oscars including Best Animated Feature.",
+    "quality": "4K Ultra HD • Dolby Atmos"
+  },
+  {
+    "id": 43,
+    "title": "Forrest Gump",
+    "year": 1994,
+    "age_rating": "PG-13",
+    "duration": "2h 22m",
+    "imdb_rating": 8.8,
+    "vote_count": 2350000,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "mood_tags": [
+      "Heartwarming",
+      "Inspiring",
+      "Historical",
+      "Wholesome",
+      "Tearjerker"
+    ],
+    "director": "Robert Zemeckis",
+    "cast": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise",
+      "Sally Field",
+      "Mykelti Williamson"
+    ],
+    "overview": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/arw2VCBveWOVZr6pxd9XTd1TdQa.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/qdIMEgAeikswW8Op9hgAIOP9LBP.jpg",
+    "trailer_youtube_id": "bLvqoHBptjg",
+    "awards": "Won 6 Oscars including Best Picture, Best Actor & Best Director.",
+    "quality": "4K Ultra HD • Spatial Audio"
+  },
+  {
+    "id": 44,
+    "title": "La La Land",
+    "year": 2016,
+    "age_rating": "PG-13",
+    "duration": "2h 08m",
+    "imdb_rating": 8.0,
+    "vote_count": 700000,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Music",
+      "Romance"
+    ],
+    "mood_tags": [
+      "Bittersweet",
+      "Romantic",
+      "Vibrant",
+      "Melodic",
+      "Dreamers"
+    ],
+    "director": "Damien Chazelle",
+    "cast": [
+      "Ryan Gosling",
+      "Emma Stone",
+      "John Legend",
+      "Rosemarie DeWitt",
+      "J.K. Simmons"
+    ],
+    "overview": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkVJt0Rf0.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/qJeU796i6U6m8x5a3n7aJ9.jpg",
+    "trailer_youtube_id": "0pdqf4P9MB8",
+    "awards": "Won 6 Oscars including Best Director & Best Actress.",
+    "quality": "4K Ultra HD • Dolby Atmos"
+  },
+  {
+    "id": 45,
+    "title": "Arrival",
+    "year": 2016,
+    "age_rating": "PG-13",
+    "duration": "1h 56m",
+    "imdb_rating": 7.9,
+    "vote_count": 780000,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Linguistic",
+      "Mind-Bending",
+      "Emotional",
+      "First Contact",
+      "Cerebral"
+    ],
+    "director": "Denis Villeneuve",
+    "cast": [
+      "Amy Adams",
+      "Jeremy Renner",
+      "Forest Whitaker",
+      "Michael Stuhlbarg"
+    ],
+    "overview": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/yIZ1xendyQcx5v2mNlM4c4.jpg",
+    "trailer_youtube_id": "tFMo3UJ4B4g",
+    "awards": "Won 1 Oscar. Nominated for 8 Oscars.",
+    "quality": "4K Ultra HD • 5.1 Surround"
+  },
+  {
+    "id": 46,
+    "title": "Inglourious Basterds",
+    "year": 2009,
+    "age_rating": "R",
+    "duration": "2h 33m",
+    "imdb_rating": 8.4,
+    "vote_count": 1640000,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "War"
+    ],
+    "mood_tags": [
+      "Revenge",
+      "Stylized",
+      "Tense",
+      "Alternate History",
+      "Witty"
+    ],
+    "director": "Quentin Tarantino",
+    "cast": [
+      "Brad Pitt",
+      "Christoph Waltz",
+      "Mélanie Laurent",
+      "Michael Fassbender",
+      "Eli Roth"
+    ],
+    "overview": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/7sfbEnaARXDD5P0ms7ms1Q2voxG.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/8bpNQw8k413vE3bA.jpg",
+    "trailer_youtube_id": "KnrRy6kSFF0",
+    "awards": "Won Oscar for Best Supporting Actor (Christoph Waltz).",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 47,
+    "title": "Django Unchained",
+    "year": 2012,
+    "age_rating": "R",
+    "duration": "2h 45m",
+    "imdb_rating": 8.5,
+    "vote_count": 1740000,
+    "genres": [
+      "Drama",
+      "Western"
+    ],
+    "mood_tags": [
+      "Revenge",
+      "Stylized",
+      "Western",
+      "High-Stakes",
+      "Intense"
+    ],
+    "director": "Quentin Tarantino",
+    "cast": [
+      "Jamie Foxx",
+      "Christoph Waltz",
+      "Leonardo DiCaprio",
+      "Kerry Washington",
+      "Samuel L. Jackson"
+    ],
+    "overview": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/7oWY8vdWW7thTzWh3OKYRkWUlD5.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/2nd56i4YqK5b1q7P9.jpg",
+    "trailer_youtube_id": "0fUCuvNlOCg",
+    "awards": "Won 2 Oscars including Best Original Screenplay & Christoph Waltz.",
+    "quality": "4K Ultra HD • 5.1 Surround"
+  },
+  {
+    "id": 48,
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "age_rating": "R",
+    "duration": "1h 58m",
+    "imdb_rating": 8.6,
+    "vote_count": 1600000,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Psychological",
+      "Chilling",
+      "Serial Killer",
+      "Masterpiece",
+      "Tense"
+    ],
+    "director": "Jonathan Demme",
+    "cast": [
+      "Jodie Foster",
+      "Anthony Hopkins",
+      "Scott Glenn",
+      "Ted Levine"
+    ],
+    "overview": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8rKTaMw.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/mfwq2nMBzArzZu54b6k1.jpg",
+    "trailer_youtube_id": "W6Mm8Sbe__o",
+    "awards": "Swept the 'Big Five' Oscars including Best Picture, Actor & Actress.",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 49,
+    "title": "Zodiac",
+    "year": 2007,
+    "age_rating": "R",
+    "duration": "2h 37m",
+    "imdb_rating": 7.7,
+    "vote_count": 600000,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Obsessive",
+      "Investigative",
+      "True Crime",
+      "Atmospheric",
+      "Procedural"
+    ],
+    "director": "David Fincher",
+    "cast": [
+      "Jake Gyllenhaal",
+      "Mark Ruffalo",
+      "Robert Downey Jr.",
+      "Anthony Edwards",
+      "Brian Cox"
+    ],
+    "overview": "In the late 1960s and 1970s, the San Francisco Bay Area is gripped by fear of the Zodiac Killer. A cartoonist becomes obsessively obsessed with discovering his identity.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/gO3m7LwQGvYn7o2w8x.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/9g9a8D76yH4b123.jpg",
+    "trailer_youtube_id": "yNncHPl1UXg",
+    "awards": "Nominated for Palme d'Or.",
+    "quality": "HD • 5.1 Surround"
+  },
+  {
+    "id": 50,
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "age_rating": "R",
+    "duration": "2h 02m",
+    "imdb_rating": 8.2,
+    "vote_count": 1080000,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Ruthless",
+      "Bleak",
+      "Tense",
+      "Masterpiece",
+      "Cat-and-Mouse"
+    ],
+    "director": "Ethan Coen, Joel Coen",
+    "cast": [
+      "Tommy Lee Jones",
+      "Javier Bardem",
+      "Josh Brolin",
+      "Woody Harrelson",
+      "Kelly Macdonald"
+    ],
+    "overview": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/6d5XOcz0S5Mwtv79e9.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/s4hQ8k0a4B71D.jpg",
+    "trailer_youtube_id": "38A__WT3-o0",
+    "awards": "Won 4 Oscars including Best Picture & Javier Bardem.",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 51,
+    "title": "The Batman",
+    "year": 2022,
+    "age_rating": "PG-13",
+    "duration": "2h 56m",
+    "imdb_rating": 7.8,
+    "vote_count": 780000,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "mood_tags": [
+      "Dark & Gritty",
+      "Detective",
+      "Noir",
+      "Atmospheric",
+      "Superhero"
+    ],
+    "director": "Matt Reeves",
+    "cast": [
+      "Robert Pattinson",
+      "Zoë Kravitz",
+      "Jeffrey Wright",
+      "Colin Farrell",
+      "Paul Dano"
+    ],
+    "overview": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/5P8SmMzSNYikXpxil6BYz9G660d.jpg",
+    "trailer_youtube_id": "mqqft2x_Aa4",
+    "awards": "Nominated for 3 Oscars.",
+    "quality": "4K Ultra HD • Dolby Atmos"
+  },
+  {
+    "id": 52,
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "age_rating": "PG-13",
+    "duration": "2h 10m",
+    "imdb_rating": 8.2,
+    "vote_count": 700000,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "mood_tags": [
+      "High Octane",
+      "Aerial Dogfights",
+      "Nostalgic",
+      "Adrenaline",
+      "Inspiring"
+    ],
+    "director": "Joseph Kosinski",
+    "cast": [
+      "Tom Cruise",
+      "Miles Teller",
+      "Jennifer Connelly",
+      "Jon Hamm",
+      "Glen Powell"
+    ],
+    "overview": "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on an impossible mission.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/odJ4hx6g6vBt4lBWKFD1tI8WS4x.jpg",
+    "trailer_youtube_id": "giXco2nxYKg",
+    "awards": "Won Oscar for Best Sound. $1.5 Billion Worldwide.",
+    "quality": "4K Ultra HD • IMAX Enhanced"
+  },
+  {
+    "id": 53,
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "age_rating": "R",
+    "duration": "1h 39m",
+    "imdb_rating": 8.1,
+    "vote_count": 870000,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Crime"
+    ],
+    "mood_tags": [
+      "Symmetrical",
+      "Quirky",
+      "Witty",
+      "Visually Whimsical",
+      "Charming"
+    ],
+    "director": "Wes Anderson",
+    "cast": [
+      "Ralph Fiennes",
+      "Tony Revolori",
+      "Saoirse Ronan",
+      "Willem Dafoe",
+      "Adrien Brody"
+    ],
+    "overview": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWX9NZkt5BW.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/nX5XotM9yprCKarRH4rl2NgskZ2.jpg",
+    "trailer_youtube_id": "1Fg5iWmQjwk",
+    "awards": "Won 4 Oscars for Production Design, Score & Costumes.",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 54,
+    "title": "Her",
+    "year": 2013,
+    "age_rating": "R",
+    "duration": "2h 06m",
+    "imdb_rating": 8.0,
+    "vote_count": 660000,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Introspective",
+      "Melancholy",
+      "Futuristic",
+      "Emotional",
+      "Philosophical"
+    ],
+    "director": "Spike Jonze",
+    "cast": [
+      "Joaquin Phoenix",
+      "Scarlett Johansson",
+      "Amy Adams",
+      "Rooney Mara",
+      "Chris Pratt"
+    ],
+    "overview": "In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/yk4J4aC3AEUT5uaoze599TCVZWW.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/9rZqaPpRISA4243.jpg",
+    "trailer_youtube_id": "ne6p6Hd4fU8",
+    "awards": "Won Oscar for Best Original Screenplay.",
+    "quality": "HD • Spatial Audio"
+  },
+  {
+    "id": 55,
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "age_rating": "R",
+    "duration": "1h 48m",
+    "imdb_rating": 8.3,
+    "vote_count": 1050000,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Mind-Bending",
+      "Poignant",
+      "Surreal",
+      "Bittersweet",
+      "Heartfelt"
+    ],
+    "director": "Michel Gondry",
+    "cast": [
+      "Jim Carrey",
+      "Kate Winslet",
+      "Kirsten Dunst",
+      "Mark Ruffalo",
+      "Elijah Wood"
+    ],
+    "overview": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/71tN7sE3L1.jpg",
+    "trailer_youtube_id": "07-QBnEkgXU",
+    "awards": "Won Oscar for Best Original Screenplay.",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 56,
+    "title": "Ex Machina",
+    "year": 2014,
+    "age_rating": "R",
+    "duration": "1h 48m",
+    "imdb_rating": 7.7,
+    "vote_count": 580000,
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "AI Sentience",
+      "Claustrophobic",
+      "Psychological",
+      "Sleek",
+      "Tense"
+    ],
+    "director": "Alex Garland",
+    "cast": [
+      "Domhnall Gleeson",
+      "Alicia Vikander",
+      "Oscar Isaac",
+      "Sonoya Mizuno"
+    ],
+    "overview": "A programmer at a tech giant is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a highly advanced humanoid A.I.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/9go2V3k7S4Lh6o.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/pA0VwH2L.jpg",
+    "trailer_youtube_id": "bggUmgeMCdc",
+    "awards": "Won Oscar for Best Visual Effects.",
+    "quality": "4K Ultra HD • 5.1 Surround"
+  },
+  {
+    "id": 57,
+    "title": "Your Name.",
+    "year": 2016,
+    "age_rating": "PG",
+    "duration": "1h 46m",
+    "imdb_rating": 8.4,
+    "vote_count": 330000,
+    "genres": [
+      "Animation",
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "mood_tags": [
+      "Body Swap",
+      "Emotional",
+      "Cosmic",
+      "Gorgeous Animation",
+      "Heartfelt"
+    ],
+    "director": "Makoto Shinkai",
+    "cast": [
+      "Ryunosuke Kamiki",
+      "Mone Kamishiraishi",
+      "Ryo Narita",
+      "Aoi Yuki"
+    ],
+    "overview": "Two teenagers share a profound, magical connection upon discovering they are swapping bodies. Things manage to become even more complicated when the boy and girl decide to meet in person.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6q2P6eHM2wu9.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/dIWwZWijPj3V7w.jpg",
+    "trailer_youtube_id": "s0wTdCQoc2k",
+    "awards": "Global phenomenon and highest-grossing anime film of its era.",
+    "quality": "4K Ultra HD • Spatial Audio"
+  },
+  {
+    "id": 58,
+    "title": "WALL·E",
+    "year": 2008,
+    "age_rating": "G",
+    "duration": "1h 38m",
+    "imdb_rating": 8.4,
+    "vote_count": 1180000,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Heartwarming",
+      "Charming",
+      "Ecological",
+      "Visual Poetry",
+      "Masterpiece"
+    ],
+    "director": "Andrew Stanton",
+    "cast": [
+      "Ben Burtt",
+      "Elissa Knight",
+      "Jeff Garlin",
+      "Fred Willard",
+      "Sigourney Weaver"
+    ],
+    "overview": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/hBhgoob9WNMGI2y45V4h7.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/fK5SSMNv9m.jpg",
+    "trailer_youtube_id": "alIq_84283E",
+    "awards": "Won Oscar for Best Animated Feature.",
+    "quality": "4K Ultra HD • Spatial Audio"
+  },
+  {
+    "id": 59,
+    "title": "The Social Network",
+    "year": 2010,
+    "age_rating": "PG-13",
+    "duration": "2h 00m",
+    "imdb_rating": 7.8,
+    "vote_count": 750000,
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "mood_tags": [
+      "Sharp Dialogue",
+      "Tech Revolution",
+      "Ambition",
+      "Betrayal",
+      "Fast-Paced"
+    ],
+    "director": "David Fincher",
+    "cast": [
+      "Jesse Eisenberg",
+      "Andrew Garfield",
+      "Justin Timberlake",
+      "Armie Hammer",
+      "Rooney Mara"
+    ],
+    "overview": "As Harvard student Mark Zuckerberg creates the social networking site that would become Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTpTpH1.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/4uOWq6n82Z70.jpg",
+    "trailer_youtube_id": "lB95KLmpLR4",
+    "awards": "Won 3 Oscars including Adapted Screenplay & Original Score (Trent Reznor).",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 60,
+    "title": "The Truman Show",
+    "year": 1998,
+    "age_rating": "PG",
+    "duration": "1h 43m",
+    "imdb_rating": 8.2,
+    "vote_count": 1150000,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "mood_tags": [
+      "Existential",
+      "Satirical",
+      "Prophetic",
+      "Thought-Provoking",
+      "Classic"
+    ],
+    "director": "Peter Weir",
+    "cast": [
+      "Jim Carrey",
+      "Ed Harris",
+      "Laura Linney",
+      "Noah Emmerich",
+      "Natascha McElhone"
+    ],
+    "overview": "An insurance salesman discovers his entire life is actually a 24/7 reality television show filmed entirely in an enormous simulated biosphere dome.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/vuza0WqY239ISB1rG.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/9r1B3C425.jpg",
+    "trailer_youtube_id": "dlnmQbPGuls",
+    "awards": "Nominated for 3 Oscars.",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 61,
+    "title": "Good Will Hunting",
+    "year": 1997,
+    "age_rating": "R",
+    "duration": "2h 06m",
+    "imdb_rating": 8.3,
+    "vote_count": 1050000,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "mood_tags": [
+      "Emotional",
+      "Genius",
+      "Therapy",
+      "Heartfelt",
+      "Inspiring"
+    ],
+    "director": "Gus Van Sant",
+    "cast": [
+      "Matt Damon",
+      "Robin Williams",
+      "Ben Affleck",
+      "Minnie Driver",
+      "Stellan Skarsgård"
+    ],
+    "overview": "Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/bABCBKYBK7A5G1xPt.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/6vK5sL7.jpg",
+    "trailer_youtube_id": "PaAVLflv9dM",
+    "awards": "Won 2 Oscars including Robin Williams for Best Supporting Actor.",
+    "quality": "4K Ultra HD • 5.1 Surround"
+  },
+  {
+    "id": 62,
+    "title": "The Shining",
+    "year": 1980,
+    "age_rating": "R",
+    "duration": "2h 26m",
+    "imdb_rating": 8.4,
+    "vote_count": 1100000,
+    "genres": [
+      "Drama",
+      "Horror"
+    ],
+    "mood_tags": [
+      "Psychological Horror",
+      "Isolation",
+      "Madness",
+      "Atmospheric",
+      "Iconic"
+    ],
+    "director": "Stanley Kubrick",
+    "cast": [
+      "Jack Nicholson",
+      "Shelley Duvall",
+      "Danny Lloyd",
+      "Scatman Crothers"
+    ],
+    "overview": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/xazWoLealQwEgqZ892.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/adL573J01.jpg",
+    "trailer_youtube_id": "S014oGZiSdI",
+    "awards": "Recognized universally as one of the greatest horror films.",
+    "quality": "4K Ultra HD • HDR"
+  },
+  {
+    "id": 63,
+    "title": "Hereditary",
+    "year": 2018,
+    "age_rating": "R",
+    "duration": "2h 07m",
+    "imdb_rating": 7.3,
+    "vote_count": 410000,
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "mood_tags": [
+      "Grief",
+      "Occult",
+      "Terrifying",
+      "Unsettling",
+      "Supernatural"
+    ],
+    "director": "Ari Aster",
+    "cast": [
+      "Toni Collette",
+      "Alex Wolff",
+      "Milly Shapiro",
+      "Ann Dowd",
+      "Gabriel Byrne"
+    ],
+    "overview": "A grieving family is haunted by tragic and disturbing occurrences after the death of their secretive grandmother.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/hY3s6Yy1F.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/8hL60s.jpg",
+    "trailer_youtube_id": "V6wWKNij_1M",
+    "awards": "Critically hailed modern horror classic.",
+    "quality": "4K Ultra HD"
+  },
+  {
+    "id": 64,
+    "title": "Tenet",
+    "year": 2020,
+    "age_rating": "PG-13",
+    "duration": "2h 30m",
+    "imdb_rating": 7.3,
+    "vote_count": 580000,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "mood_tags": [
+      "Time Inversion",
+      "Mind-Bending",
+      "Espionage",
+      "High Stakes",
+      "Spectacle"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "John David Washington",
+      "Robert Pattinson",
+      "Elizabeth Debicki",
+      "Kenneth Branagh"
+    ],
+    "overview": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+    "poster_path": "https://image.tmdb.org/t/p/w500/k68nPLbIST6NP96JmTxmZijEvCA.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/wzJRB4MKi3yK1.jpg",
+    "trailer_youtube_id": "LdOM0x0XDMo",
+    "awards": "Won Oscar for Best Visual Effects.",
+    "quality": "4K Ultra HD • IMAX Ratio"
+  }
+]
