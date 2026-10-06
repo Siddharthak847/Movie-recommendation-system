@@ -1,5 +1,5 @@
 """
-FastAPI Server for Netflix-grade Movie Recommendation System.
+FastAPI Server for CineMatch AI Movie Recommendation System.
 Provides RESTful APIs for real-time personalization, hybrid recommendation,
 collaborative filtering, search, and serves the cinematic front-end.
 """
@@ -15,8 +15,8 @@ from pydantic import BaseModel
 from backend.recommender import MovieRecommenderEngine
 
 app = FastAPI(
-    title="CineFlix - AI Movie Recommendation Engine",
-    description="Netflix-grade recommendation system using hybrid Content-Based & Collaborative Filtering",
+    title="CineMatch - AI Movie Recommendation Engine",
+    description="Advanced recommendation system using hybrid Content-Based & Collaborative Filtering",
     version="1.0.0"
 )
 
@@ -65,7 +65,7 @@ def health_check():
 
 @app.get("/api/home")
 def get_home_rows(user_id: str = "default_user"):
-    """Returns hero billboard and all curated Netflix category rows."""
+    """Returns hero spotlight and all curated category rows."""
     return recommender.get_category_rows(user_id=user_id)
 
 
@@ -186,4 +186,4 @@ def serve_index():
     index_file = os.path.join(STATIC_DIR, "index.html")
     if os.path.exists(index_file):
         return FileResponse(index_file)
-    return {"message": "CineFlix Recommendation Engine is running! Frontend assets loading..."}
+    return {"message": "CineMatch Recommendation Engine is running! Frontend assets loading..."}

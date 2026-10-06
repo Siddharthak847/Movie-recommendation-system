@@ -1,5 +1,5 @@
 """
-Build comprehensive, high-fidelity movie dataset for the Netflix-grade recommendation engine.
+Build comprehensive, high-fidelity movie dataset for the CineMatch recommendation engine.
 Each movie includes high-resolution TMDB posters and backdrops, official YouTube trailer IDs,
 rich metadata (genres, moods, director, top cast, synopsis, runtime, age rating, IMDb score, votes).
 """

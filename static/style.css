@@ -1,13 +1,13 @@
 /* ==========================================================================
-   CINEFLIX — State of the Art Netflix-Grade Design System
-   Rich Aesthetics: Obsidian Dark Mode, Netflix Red Accents, Glassmorphism,
+   CINEMATCH — State of the Art AI Movie Recommendation Platform
+   Rich Aesthetics: Obsidian Dark Mode, Crimson Glow Accents, Glassmorphism,
    Cinematic Typography & High-Performance Micro-Animations.
    ========================================================================== */
 
 :root {
-  --netflix-red: #E50914;
-  --netflix-red-hover: #b81d24;
-  --netflix-red-glow: rgba(229, 9, 20, 0.45);
+  --brand-red: #E50914;
+  --brand-red-hover: #b81d24;
+  --brand-red-glow: rgba(229, 9, 20, 0.45);
   --bg-primary: #141414;
   --bg-darker: #0c0c0c;
   --bg-card: #181818;
@@ -45,7 +45,7 @@ html {
   color-scheme: dark;
 }
 
-body.netflix-dark {
+body.cinematic-dark {
   background-color: var(--bg-primary);
   color: var(--text-primary);
   font-family: var(--font-body);
@@ -55,7 +55,7 @@ body.netflix-dark {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Custom Netflix Scrollbar */
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -68,7 +68,7 @@ body.netflix-dark {
   border-radius: var(--radius-full);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--netflix-red);
+  background: var(--brand-red);
 }
 
 /* ==========================================================================
@@ -112,8 +112,8 @@ body.netflix-dark {
 }
 
 .logo-red {
-  color: var(--netflix-red);
-  text-shadow: 0 0 15px var(--netflix-red-glow);
+  color: var(--brand-red);
+  text-shadow: 0 0 15px var(--brand-red-glow);
 }
 
 .logo-white {
@@ -155,7 +155,7 @@ body.netflix-dark {
 }
 
 .badge-count {
-  background-color: var(--netflix-red);
+  background-color: var(--brand-red);
   color: #fff;
   font-size: 10px;
   font-weight: 700;
@@ -188,7 +188,7 @@ body.netflix-dark {
 }
 
 .icon-btn:hover {
-  color: var(--netflix-red);
+  color: var(--brand-red);
   transform: scale(1.1);
 }
 
@@ -284,7 +284,7 @@ body.netflix-dark {
 }
 
 .persona-btn:hover .avatar-img {
-  border-color: var(--netflix-red);
+  border-color: var(--brand-red);
 }
 
 .persona-dropdown {
@@ -360,7 +360,7 @@ body.netflix-dark {
 }
 
 .persona-option i {
-  color: var(--netflix-red);
+  color: var(--brand-red);
   width: 16px;
   text-align: center;
 }
@@ -424,7 +424,7 @@ body.netflix-dark {
   margin-bottom: 12px;
 }
 
-.netflix-series-badge {
+.spotlight-badge {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -433,13 +433,6 @@ body.netflix-dark {
   font-weight: 800;
   letter-spacing: 2px;
   color: #fff;
-}
-
-.n-symbol {
-  color: var(--netflix-red);
-  font-family: var(--font-display);
-  font-size: 20px;
-  line-height: 1;
 }
 
 .hero-match-badge {
@@ -576,8 +569,8 @@ body.netflix-dark {
 }
 
 .btn-icon.active {
-  background-color: var(--netflix-red);
-  border-color: var(--netflix-red);
+  background-color: var(--brand-red);
+  border-color: var(--brand-red);
   color: #fff;
 }
 
@@ -657,8 +650,8 @@ body.netflix-dark {
 
 .row-badge {
   background-color: rgba(229, 9, 20, 0.2);
-  color: var(--netflix-red);
-  border: 1px solid var(--netflix-red);
+  color: var(--brand-red);
+  border: 1px solid var(--brand-red);
   font-size: 10px;
   font-weight: 700;
   padding: 2px 8px;
@@ -684,7 +677,7 @@ body.netflix-dark {
   display: none;
 }
 
-/* Carousel Scroll Arrow Chevrons */
+/* Carousel Scroll Chevrons */
 .carousel-btn {
   position: absolute;
   top: 50%;
@@ -710,7 +703,7 @@ body.netflix-dark {
 
 .carousel-btn:hover {
   background: rgba(20, 20, 20, 0.95);
-  color: var(--netflix-red);
+  color: var(--brand-red);
 }
 
 .carousel-btn.prev {
@@ -726,7 +719,7 @@ body.netflix-dark {
 }
 
 /* ==========================================================================
-   NETFLIX MOVIE CARDS & SIGNATURE HOVER EXPANSION
+   MOVIE CARDS & HOVER EXPANSION PREVIEWS
    ========================================================================== */
 .movie-card {
   position: relative;
@@ -873,8 +866,8 @@ body.netflix-dark {
 }
 
 .action-circle-btn.active {
-  background-color: var(--netflix-red);
-  border-color: var(--netflix-red);
+  background-color: var(--brand-red);
+  border-color: var(--brand-red);
   color: #fff;
 }
 
@@ -923,7 +916,7 @@ body.netflix-dark {
 }
 
 /* ==========================================================================
-   TOP 10 ROW: ICONIC GIANT NUMBER STYLING
+   TOP 10 ROW: STYLIZED RANK NUMERALS
    ========================================================================== */
 .top-10-card-wrapper {
   position: relative;
@@ -949,8 +942,8 @@ body.netflix-dark {
 }
 
 .top-10-card-wrapper:nth-child(1) .top-10-rank-number {
-  -webkit-text-stroke: 4px var(--netflix-red);
-  text-shadow: 0 0 30px var(--netflix-red-glow);
+  -webkit-text-stroke: 4px var(--brand-red);
+  text-shadow: 0 0 30px var(--brand-red-glow);
 }
 
 .top-10-card-wrapper .movie-card {
@@ -1024,7 +1017,7 @@ body.netflix-dark {
   cursor: pointer;
 }
 .custom-select:focus {
-  border-color: var(--netflix-red);
+  border-color: var(--brand-red);
 }
 
 .reset-filter-btn {
@@ -1048,7 +1041,7 @@ body.netflix-dark {
 }
 
 /* ==========================================================================
-   NETFLIX FULL MOVIE DETAIL & TRAILER MODAL
+   CINEMATIC DETAIL & TRAILER MODAL
    ========================================================================== */
 .modal-backdrop {
   position: fixed;
@@ -1074,7 +1067,7 @@ body.netflix-dark {
   visibility: visible;
 }
 
-.netflix-modal {
+.app-modal {
   position: relative;
   width: 100%;
   max-width: 860px;
@@ -1087,7 +1080,7 @@ body.netflix-dark {
   transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.modal-backdrop.open .netflix-modal {
+.modal-backdrop.open .app-modal {
   transform: translateY(0);
 }
 
@@ -1464,7 +1457,7 @@ body.netflix-dark {
 }
 
 .text-red {
-  color: var(--netflix-red);
+  color: var(--brand-red);
 }
 
 .drawer-close-btn {
@@ -1521,13 +1514,13 @@ body.netflix-dark {
 }
 
 .persona-card:hover {
-  border-color: var(--netflix-red);
+  border-color: var(--brand-red);
   background-color: rgba(229, 9, 20, 0.08);
   transform: translateX(4px);
 }
 
 .persona-card.active {
-  border-color: var(--netflix-red);
+  border-color: var(--brand-red);
   background: linear-gradient(90deg, rgba(229, 9, 20, 0.2) 0%, rgba(20, 20, 20, 0.8) 100%);
 }
 
@@ -1536,7 +1529,7 @@ body.netflix-dark {
   height: 36px;
   border-radius: 50%;
   background: rgba(229, 9, 20, 0.2);
-  color: var(--netflix-red);
+  color: var(--brand-red);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1584,7 +1577,7 @@ body.netflix-dark {
 
 .taste-progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, var(--netflix-red) 0%, #ff758c 100%);
+  background: linear-gradient(90deg, var(--brand-red) 0%, #ff758c 100%);
   border-radius: var(--radius-full);
   transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -1666,7 +1659,7 @@ body.netflix-dark {
   gap: 12px;
   background-color: rgba(24, 24, 24, 0.95);
   border: 1px solid var(--border-light);
-  border-left: 4px solid var(--netflix-red);
+  border-left: 4px solid var(--brand-red);
   color: #fff;
   padding: 14px 20px;
   border-radius: var(--radius-md);
@@ -1679,14 +1672,14 @@ body.netflix-dark {
 }
 
 .toast i {
-  color: var(--netflix-red);
+  color: var(--brand-red);
   font-size: 16px;
 }
 
 /* ==========================================================================
    FOOTER
    ========================================================================== */
-.netflix-footer {
+.app-footer {
   border-top: 1px solid var(--border-subtle);
   padding: 50px 4% 40px;
   background-color: var(--bg-darker);

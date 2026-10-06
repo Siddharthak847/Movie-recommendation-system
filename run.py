@@ -1,5 +1,5 @@
 """
-Entry point launcher for CineFlix AI Movie Recommendation System.
+Entry point launcher for CineMatch AI Movie Recommendation System.
 Usage:
     python run.py
 """
@@ -10,8 +10,10 @@ import webbrowser
 import uvicorn
 
 def main():
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8')
     print("=" * 60)
-    print("🎬 Starting CineFlix — AI Movie Recommendation System")
+    print("🎬 Starting CineMatch — AI Movie Recommendation System")
     print("=" * 60)
     print("📍 URL: http://127.0.0.1:8000")
     print("⚡ Engine: Hybrid (TF-IDF + Cosine Similarity + Collaborative + Bayesian)")

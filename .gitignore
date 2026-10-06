@@ -43,3 +43,4 @@ desktop.ini
 
 # Logs
 *.log
+node_modules

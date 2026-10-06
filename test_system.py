@@ -4,8 +4,8 @@ base = 'http://127.0.0.1:8000'
 
 # 1. Test Static Index
 r_index = requests.get(base)
-assert r_index.status_code == 200 and 'CineFlix' in r_index.text, 'Index page failed'
-print('1. Static HTML: PASS (Contains CineFlix)')
+assert r_index.status_code == 200 and 'CineMatch' in r_index.text, 'Index page failed'
+print('1. Static HTML: PASS (Contains CineMatch)')
 
 # 2. Test Home Feed
 r_home = requests.get(f'{base}/api/home')

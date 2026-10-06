@@ -316,7 +316,7 @@ class MovieRecommenderEngine:
         return user_vector
 
     def _generate_explanation(self, movie: Dict[str, Any], user_id: str, similarity_score: float) -> str:
-        """Generates clear, authentic Netflix-style Explainable AI recommendation reason."""
+        """Generates clear, transparent Explainable AI recommendation reason."""
         prof = self.user_profiles.get(user_id, {})
         ratings = prof.get("ratings", {})
 
@@ -343,7 +343,7 @@ class MovieRecommenderEngine:
 
     def calculate_match_percentage(self, raw_score: float) -> int:
         """
-        Converts combined similarity and quality scores into authentic Netflix match percentages:
+        Converts combined similarity and quality scores into match percentages:
         e.g., 98%, 95%, 91%, 88% Match.
         """
         clamped = max(0.0, min(1.0, raw_score))
@@ -445,7 +445,7 @@ class MovieRecommenderEngine:
         return similar_items
 
     def get_top_10_trending(self) -> List[Dict[str, Any]]:
-        """Returns the iconic Netflix Top 10 with ranking numbers 1 to 10."""
+        """Returns the Top 10 with ranking numbers 1 to 10."""
         # Top 10 by Bayesian score + recency/votes
         sorted_movies = sorted(self.movies, key=lambda m: (self.bayesian_scores[m["id"]], m["year"]), reverse=True)
         top10 = []
@@ -457,7 +457,7 @@ class MovieRecommenderEngine:
         return top10
 
     def get_hero_spotlight(self, user_id: str = "default_user") -> Dict[str, Any]:
-        """Selects the best cinematic spotlight for the Netflix billboard banner."""
+        """Selects the best spotlight for the billboard banner."""
         recommendations = self.get_personalized_recommendations(user_id=user_id, limit=5)
         # Choose the top recommendation with a rich backdrop
         for m in recommendations:
@@ -466,7 +466,7 @@ class MovieRecommenderEngine:
         return self.movies[0]
 
     def get_category_rows(self, user_id: str = "default_user") -> Dict[str, Any]:
-        """Builds all organized dynamic rows for the Netflix homepage."""
+        """Builds all organized dynamic rows for the homepage."""
         prof = self.user_profiles.get(user_id, {})
         user_ratings = prof.get("ratings", {})
         watchlist_ids = prof.get("watchlist", [])

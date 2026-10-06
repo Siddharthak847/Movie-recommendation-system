@@ -1,6 +1,6 @@
-# 🎬 CineFlix — Netflix-Grade AI Movie Recommendation System
+# 🎬 CineMatch — Intelligent AI Movie Recommendation System
 
-An intelligent, full-stack cinematic movie recommendation engine built with **FastAPI**, **scikit-learn**, **NumPy**, **Pandas**, and a pixel-perfect **Netflix-styled Dark UI**.
+An intelligent, full-stack cinematic movie recommendation engine built with **FastAPI**, **scikit-learn**, **NumPy**, **Pandas**, and an ultra-modern **Cinematic Dark UI**.
 
 ---
 
@@ -9,15 +9,15 @@ An intelligent, full-stack cinematic movie recommendation engine built with **Fa
 ### 🧠 1. Multi-Strategy Hybrid Recommendation Engine
 1. **Content-Based Filtering (TF-IDF & Weighted Metadata Soups)**:
    - Evaluates multi-attribute feature representations:
-     - **Genres** (weight 4.0)
-     - **Mood & Tone Tags** (weight 3.0: *Mind-Bending*, *Cyberpunk*, *Dark & Gritty*, *Adrenaline Rush*, *Atmospheric*, etc.)
-     - **Director** (weight 3.0)
-     - **Key Cast** (weight 2.0)
+     - **Genres** (weight $\times 4.0$)
+     - **Mood & Tone Tags** (weight $\times 3.0$: *Mind-Bending*, *Cyberpunk*, *Dark & Gritty*, *Adrenaline Rush*, *Atmospheric*, etc.)
+     - **Director** (weight $\times 3.0$)
+     - **Key Cast** (weight $\times 2.0$)
      - **Plot Overview & Synopsis Tokens**
    - High-dimensional TF-IDF vectorization with sublinear term-frequency scaling and cosine similarity.
 
 2. **Item-Item Collaborative Filtering**:
-   - Simulated interaction matrix across 40 archetypal streaming personas.
+   - Interaction matrix across 40 archetypal viewer personas.
    - Calculates item-item Pearson & cosine correlations (*"Viewers who loved this also watched..."*).
 
 3. **Bayesian Weighted Rating Calibration (IMDb Top 250 Formula)**:
@@ -34,15 +34,15 @@ An intelligent, full-stack cinematic movie recommendation engine built with **Fa
 
 ---
 
-### 🎨 2. Netflix-Inspired Cinematic Interface
-- **Obsidian Dark Mode**: Netflix Red (`#E50914`), deep obsidian (`#141414`), and authentic Emerald Match (`#46d369`).
+### 🎨 2. High-Performance Cinematic Interface
+- **Obsidian Dark Mode**: Crimson accents (`#E50914`), deep obsidian (`#141414`), and authentic Emerald Match (`#46d369`).
 - **Hero Billboard Spotlight**:
   - High-res widescreen backdrop with atmospheric vignette.
   - Live Match percentage, 4K Ultra HD & Spatial Audio badges.
   - Interactive **Play Trailer**, **More Info**, and **My List** buttons.
 - **Dynamic Category Rows with Carousel Navigation**:
   - **Top Picks for You** (Live AI Personalized)
-  - **Top 10 Movies Today** (Giant stylized rank numerals 1 through 10)
+  - **Trending Top 10** (Giant stylized rank numerals 1 through 10)
   - **Because You Watched [Title]** (Contextual item-to-item similarity)
   - **Mind-Bending & Sci-Fi Realities**
   - **Adrenaline Rush & Action Spectacles**
@@ -50,10 +50,10 @@ An intelligent, full-stack cinematic movie recommendation engine built with **Fa
   - **Animation, Whimsy & Family**
   - **Critically Acclaimed Masterpieces**
   - **My List (Watchlist)**
-- **Signature Netflix Hover Card Expansion**:
+- **Interactive Card Hover Expansion**:
   - Smooth scale expansion on hover revealing backdrop banner, action buttons, Match %, duration, age rating, genre bullets, and AI explanation.
 - **Full Movie Detail & Video Trailer Modal**:
-  - Autoplaying embedded YouTube trailer.
+  - Embedded HD video trailer player.
   - Comprehensive cast, director, awards, storyline, and tags.
   - **Interactive Rating Widget ("Rate & Teach AI")**: 1-5 stars immediately updating user taste profile.
   - **"More Like This"** 6-card recommendation grid.
@@ -71,21 +71,15 @@ An intelligent, full-stack cinematic movie recommendation engine built with **Fa
 ### Prerequisites
 - Python 3.10+ (Python 3.12 recommended)
 
-### 1. Activate the Virtual Environment
-On Windows (PowerShell):
-```powershell
-.\.venv\Scripts\Activate.ps1
+### 1. Launch with 1 Click
+```bash
+python run.py
 ```
+This automatically launches the FastAPI server and opens `http://127.0.0.1:8000` in your default browser.
 
-### 2. Start the Recommendation Server
-```powershell
+### 2. Manual Start (Alternative)
+```bash
 python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
-```
-
-### 3. Open in Browser
-Open your browser and navigate to:
-```
-http://127.0.0.1:8000
 ```
 
 ---
@@ -94,7 +88,7 @@ http://127.0.0.1:8000
 
 | Method | Endpoint | Description |
 |---|---|---|
-| `GET` | `/` | Serves the Netflix frontend application |
+| `GET` | `/` | Serves the interactive web application |
 | `GET` | `/api/home` | Returns hero spotlight and all curated rows |
 | `GET` | `/api/movies/{id}` | Movie details and 6 similar recommendations |
 | `GET` | `/api/recommend/user` | Real-time personalized recommendations |

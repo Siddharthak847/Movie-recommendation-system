@@ -1,6 +1,6 @@
 /**
- * CINEFLIX — State of the Art Movie Recommendation Frontend Engine
- * Handles real-time AI personalization, dynamic Netflix carousels,
+ * CINEMATCH — State of the Art Movie Recommendation Frontend Engine
+ * Handles real-time AI personalization, dynamic carousels,
  * interactive card expansions, YouTube trailer modal, search, and taste studio.
  */
 
@@ -305,7 +305,7 @@ function createTop10Card(movie) {
 }
 
 // ============================================================================
-// NETFLIX MOVIE DETAIL & TRAILER MODAL
+// FULL MOVIE DETAIL & TRAILER MODAL
 // ============================================================================
 async function openMovieModal(movieId, autoPlayTrailer = false) {
   try {
@@ -645,7 +645,7 @@ async function performSearch() {
   const summary = document.getElementById("search-summary");
 
   if (!query && genre === "All" && mood === "All") {
-    // Show normal Netflix home rows
+    // Show normal home rows
     resultsSection.classList.add("hidden");
     homeRows.style.display = "block";
     heroSection.style.display = "flex";

@@ -3,36 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CineFlix — AI Powered Movie Recommendation System</title>
-  <meta name="description" content="State of the art Netflix-grade movie recommendation engine combining content-based filtering, collaborative latent factors, and real-time taste vector adaptation." />
+  <title>CineMatch — AI Powered Movie Recommendation System</title>
+  <meta name="description" content="State of the art cinematic movie recommendation engine combining content-based filtering, collaborative latent factors, and real-time taste vector adaptation." />
   
-  <!-- Favicon -->
-  <link rel="icon" href="https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico" />
+  <!-- Modern Film SVG Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23E50914'><path d='M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z'/></svg>" />
 
   <!-- Google Fonts: Bebas Neue for iconic titles/numbers, Outfit & Inter for sleek UI -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet" />
 
-  <!-- Font Awesome for Netflix-grade icons -->
+  <!-- Font Awesome for Cinematic Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="/static/style.css" />
 </head>
-<body class="netflix-dark">
+<body class="cinematic-dark">
 
   <!-- Top Navigation Bar -->
   <header id="main-header" class="navbar">
     <div class="nav-left">
       <a href="#" class="brand-logo" id="logo-btn">
-        <span class="logo-red">CINE</span><span class="logo-white">FLIX</span>
+        <span class="logo-red">CINE</span><span class="logo-white">MATCH</span>
         <span class="ai-tag">AI ENGINE</span>
       </a>
       <nav class="nav-links">
         <a href="#hero-section" class="nav-link active" id="nav-home">Home</a>
         <a href="#row-top_picks" class="nav-link" id="nav-top-picks">Top Picks</a>
-        <a href="#row-top_10" class="nav-link" id="nav-top-10">Top 10</a>
+        <a href="#row-top_10" class="nav-link" id="nav-top-10">Trending Top 10</a>
         <a href="#row-because_you_watched" class="nav-link" id="nav-because">Because You Watched</a>
         <a href="#row-watchlist" class="nav-link" id="nav-watchlist">My List <span class="badge-count" id="watchlist-nav-badge">0</span></a>
       </nav>
@@ -109,8 +109,8 @@
 
       <div class="hero-content">
         <div class="hero-badges">
-          <span class="netflix-series-badge">
-            <span class="n-symbol">N</span> BLOCKBUSTER SPOTLIGHT
+          <span class="spotlight-badge">
+            <i class="fa-solid fa-film text-red"></i> FEATURED SPOTLIGHT
           </span>
           <span class="hero-match-badge" id="hero-match-pct">98% Match</span>
           <span class="hero-quality-badge">4K ULTRA HD</span>
@@ -155,7 +155,7 @@
       </div>
     </section>
 
-    <!-- Search / Filter Overlay Mode (Hidden by default, shown when user searches) -->
+    <!-- Search / Filter Overlay Mode -->
     <section id="search-results-section" class="search-results-section hidden">
       <div class="search-header-bar">
         <div class="search-title-area">
@@ -198,26 +198,16 @@
       </div>
     </section>
 
-    <!-- Netflix Category Rows Section -->
+    <!-- Category Rows Section -->
     <div id="category-rows-container" class="category-rows-container">
-      <!-- Dynamic rows will be inserted here:
-           1. Top Picks for You (AI)
-           2. Top 10 Movies Today
-           3. Because You Watched...
-           4. Mind-Bending & Sci-Fi
-           5. Adrenaline Rush & Action
-           6. Dark Crime & Gripping Thrillers
-           7. Animation, Whimsy & Family
-           8. Critically Acclaimed Masterpieces
-           9. My List (Watchlist)
-      -->
+      <!-- Dynamic rows will be inserted here -->
     </div>
 
   </main>
 
-  <!-- Netflix Full Movie Detail & Trailer Modal -->
+  <!-- Full Movie Detail & Trailer Modal -->
   <div class="modal-backdrop" id="movie-modal-backdrop">
-    <div class="netflix-modal" id="netflix-modal">
+    <div class="app-modal" id="app-modal">
       <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">
         <i class="fa-solid fa-xmark"></i>
       </button>
@@ -336,7 +326,7 @@
         <div class="modal-similar-section">
           <h3 class="similar-heading">More Like This</h3>
           <div class="similar-grid" id="modal-similar-grid">
-            <!-- 6 Similar Movie cards injected here -->
+            <!-- Similar Movie cards injected here -->
           </div>
         </div>
 
@@ -441,14 +431,14 @@
   <div class="toast-container" id="toast-container"></div>
 
   <!-- Footer -->
-  <footer class="netflix-footer">
+  <footer class="app-footer">
     <div class="footer-content">
       <div class="footer-logo">
-        <span class="logo-red">CINE</span><span class="logo-white">FLIX</span>
+        <span class="logo-red">CINE</span><span class="logo-white">MATCH</span>
         <span class="footer-tag">Advanced Recommendation Architecture</span>
       </div>
       <p class="footer-desc">
-        A Netflix-inspired movie recommendation platform powered by machine learning algorithms: Content-based TF-IDF, item-item collaborative filtering, Bayesian calibration, and real-time user preference vectors.
+        A custom movie recommendation platform powered by machine learning algorithms: Content-based TF-IDF, item-item collaborative filtering, Bayesian calibration, and real-time user preference vectors.
       </p>
       <div class="footer-bottom">
         <span>Designed for cinematic excellence & dynamic user personalization</span>
